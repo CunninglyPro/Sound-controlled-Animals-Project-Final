@@ -35,10 +35,13 @@ function gotResults(error, results) {
             dog_count = dog_count + 1;
         } else if (results[0].label == "Meow") {
             animal_imgs.src = "meow.gif";
+            cat_count = cat_count + 1;
         } else if (results[0].label == "Moo") {
             animal_imgs.src = "moo.gif";
+            cow_count = cow_count + 1;
         } else if (results[0].label == "Roar") {
             animal_imgs.src = "roar.gif";
+            tiger_count = tiger_count + 1;
         } else {
             animal_imgs.src = "listen.gif";
         }
